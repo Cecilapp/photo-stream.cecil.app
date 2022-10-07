@@ -1,26 +1,27 @@
-title: App
-baseline: Baseline
-description: Description.
-baseurl: https://app.cecil.app/
+title: Photo Stream
+baseline: Your personal photo gallery
+description: Cecil Photo Stream is a static photo gallery website.
+baseurl: https://photo-stream.cecil.app/
 image: preview.png
 theme:
-  - applanding
-  - netlify
+  - photo
+  - gallery
+  - stream
 applanding:
   buttons:
     - name: Netlify
-      url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/repository&stack=cms
+      url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/photo-stream&stack=cms
       image: https://www.netlify.com/img/deploy/button.svg
   source: https://github.com/Cecilapp/repository
-  documentation: https://github.com/Cecilapp/repository#readme
+  documentation: https://github.com/Cecilapp/photo-stream#readme
   screenshot:
     desktop:
       light: preview.png
-      dark: preview-dark.png
+      #dark: preview-dark.png
     mobile:
-      light: mobile-preview.png
-      dark: mobile-preview-dark.png
-  demo: https://app-demo.cecil.app
+      #light: mobile-preview.png
+      #dark: mobile-preview-dark.png
+  demo: https://photo-stream-demo.cecil.app
 netlify:
   redirects:
     - from: https://app.netlify.app/*
