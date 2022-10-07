@@ -4,9 +4,8 @@ description: Cecil Photo Stream is a static photo gallery website.
 baseurl: https://photo-stream.cecil.app/
 image: preview.png
 theme:
-  - photo
-  - gallery
-  - stream
+  - applanding
+  - netlify
 applanding:
   buttons:
     - name: Netlify
