@@ -16,10 +16,10 @@ applanding:
   screenshot:
     desktop:
       light: preview.png
-      #dark: preview-dark.png
+      dark: preview-dark.png
     mobile:
-      #light: mobile-preview.png
-      #dark: mobile-preview-dark.png
+      light: mobile-preview.png
+      dark: mobile-preview-dark.png
   demo: https://photo-stream-demo.cecil.app
 netlify:
   redirects:
