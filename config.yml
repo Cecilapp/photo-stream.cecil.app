@@ -6,6 +6,15 @@ image: preview.png
 theme:
   - applanding
   - netlify
+language: en
+languages:
+  - code: en
+    locale: en
+  - code: fr
+    locale: fr
+    config:
+      baseline: Votre galerie photo personnelle
+      description: Cecil Photo Stream est un site statique de galerie de photos
 applanding:
   buttons:
     - name: Netlify
@@ -17,13 +26,14 @@ applanding:
   screenshot:
     desktop:
       light: preview.png
-      #dark: preview-dark.png
+    #  dark: preview-dark.png
     #mobile:
     #  light: mobile-preview.png
     #  dark: mobile-preview-dark.png
 netlify:
   redirects:
-    - from: https://app.netlify.app/*
-      to: https://app-demo.cecil.app/:splat
+    - from: cecil-photo-stream.netlify.app/*
+      to: photo-stream.cecil.app/:splat
       status: 301
       force: true
+  redirect_by_language: true
