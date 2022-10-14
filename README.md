@@ -2,7 +2,7 @@
 
 Cecil _Photo Stream_ website.
 
-##Development
+## Development
 
 ```bash
 npm install
