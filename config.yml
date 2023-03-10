@@ -20,6 +20,9 @@ applanding:
     - name: Netlify
       url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/photo-stream&stack=cms
       image: https://www.netlify.com/img/deploy/button.svg
+    - name: Vercel
+      url: https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCecilapp%2Fphoto-stream&project-name=photo-stream&repository-name=photo-stream&demo-title=Photo%20Stream&demo-description=Super%20simple%20self%20hosted%20photo%20stream%2C%20powered%20by%20Cecil.&demo-url=https%3A%2F%2Fphoto-stream-demo.cecil.app&demo-image=https%3A%2F%2Fgithub.com%2FCecilapp%2Fphoto-stream.cecil.app%2Fraw%2Fmain%2Fassets%2Fpreview.png
+      image: https://vercel.com/button/default.svg
   source: https://github.com/Cecilapp/photo-stream
   documentation: https://github.com/Cecilapp/photo-stream#readme
   demo: https://photo-stream-demo.cecil.app
