@@ -9,8 +9,10 @@ theme:
 language: en
 languages:
   - code: en
+    name: English
     locale: en
   - code: fr
+    name: Français
     locale: fr
     config:
       baseline: Votre galerie photo personnelle
